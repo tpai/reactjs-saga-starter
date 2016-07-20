@@ -26,7 +26,7 @@ module.exports = objectAssign({}, defaultConfig, {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.DefinePlugin({
             __DEVELOPMENT__: JSON.stringify(JSON.parse(process.env.NODE_ENV === 'development')),
-            __API_DOMAIN__: JSON.stringify(process.env.API_DOMAIN)
+            __API_HOST__: JSON.stringify(process.env.API_HOST)
         })
     ]
 });

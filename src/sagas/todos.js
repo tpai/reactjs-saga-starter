@@ -67,7 +67,7 @@ export function* watchToggleTodo() {
 
 export function* clearAll(action) {
     try {
-        yield action.todos.map(function* (todo) {
+        yield action.todos.data.map(function* (todo) {
             yield call(clearAllAPI, todo);
         });
         yield put({ type: CLEAR_ALL_SUCCESS });
@@ -83,7 +83,7 @@ export function* watchClearAll() {
 
 export function* clearCompleted(action) {
     try {
-        yield action.todos.map(function* (todo) {
+        yield action.todos.data.map(function* (todo) {
             if(todo.done)
                 yield call(clearCompletedAPI, todo);
         });
