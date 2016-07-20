@@ -1,4 +1,4 @@
-# React.js Starter
+# React.js Saga Starter
 
 ![](http://i.giphy.com/3o6Zt9J9GvwzwN8rgA.gif)
 
@@ -12,7 +12,6 @@ npm i
 
 ```
 npm i -g json-server
-json-server -w db.json
 ```
 
 ## Change Environment Variable (required)
