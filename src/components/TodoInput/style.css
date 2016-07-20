@@ -1,0 +1,14 @@
+.form {
+    width: 100%;
+    margin: 16px;
+}
+
+.todo {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 24px;
+    line-height: 1.4em;
+    width: 100%;
+    outline: none;
+    border: 0px;
+    background: white;
+}

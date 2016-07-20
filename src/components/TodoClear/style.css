@@ -1,0 +1,11 @@
+.button {
+    border: 0;
+    margin: 5px 0 5px 0;
+    outline: none;
+    background: white;
+    font-family: 'Exo 2';
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
