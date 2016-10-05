@@ -14,7 +14,7 @@ import Todos from 'containers/Todos/';
 import { fetchTodos } from 'actions/todos';
 import { fetchLocation } from 'actions/location';
 
-export default class AppRouter extends Component {
+class AppRouter extends Component {
     static propTypes = {
         actions: PropTypes.shape({
             fetchTodos: PropTypes.func.isRequired,
